@@ -1,0 +1,53 @@
+<div class="loading-ajax">
+    <span class="sirv-loading-icon"></span>
+</div>
+<div class="content">
+    <div class="selection-content">
+        <div class="sirv-items-container">
+            <div class="nav">
+                <div class="tools-panel">
+                    <div class="btn btn-success create-folder">
+                        <span>New folder</span>
+                    </div>
+                    <div class="btn btn-success fileinput-button">
+                        <span>Upload media</span>
+                        <input id="filesToUpload" class="sirvFilesToUpload" data-current-folder="/" type="file" name="files[]" multiple="">
+                    </div>
+                    <a class="btn btn-success b-close">Cancel</a>
+                </div>
+                <ol class="breadcrumb">
+                </ol>
+                <div class="clearfix"></div>
+            </div>
+            <div class="sirv-dirs">
+                <ul class="items-list" id="dirs"></ul>
+            </div>
+            <div class="sirv-spins">
+                <ul class="items-list" id="spins"></ul>
+            </div>
+            <div class="sirv-images">
+                <ul class="items-list" id="images"></ul>
+            </div>
+        </div>
+        <div class="selected-images">
+            <div class="selected-images-container">
+            <div class="selection-info">
+                <span class="count"> 1 selected</span>
+                <a class="clear-selection" href="#">Clear</a>
+            </div>
+            <div class="selection-view">
+                <ul class="selected-miniatures-container">
+                    <!-- <li class="selected-miniature">
+                        <img "selected-miniature-img" src="" />
+                    </li> -->
+                </ul>
+            </div>
+            <div class="bottom-bar">
+                <div class="btn btn-success set-featured-image">
+                    <span>Set Featured image</span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
